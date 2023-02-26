@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="/public/assets/css/styles.css">
+    <link rel="shortcut icon" href="/public/icon.png" type="image/x-icon">
+</head>
+<body>
+    <div class="container">
+        <div class="calculator">
+            <form>
+                <div class="panel">
+                    <span class="result"></span>
+                </div>
+                <div>
+                    <input id="ac" class="btn special" type="button" value="AC">
+                    <input id="percentage" class="btn special" type="button" value="%">
+                    <input id="sign" class="btn special" type="button" value="+/-">
+                    <input id="division" class="btn operator" type="button" value="÷">
+                </div>
+                <div>
+                    <input id="seven" class="btn numbers" type="button" value="7">
+                    <input id="eight" class="btn numbers" type="button" value="8">
+                    <input id="nine" class="btn numbers" type="button" value="9">
+                    <input id="multiplication" class="btn operator" type="button" value="x">
+                </div>
+                <div>
+                    <input id="four" class="btn numbers" type="button" value="4">
+                    <input id="five" class="btn numbers" type="button" value="5">
+                    <input id="six" class="btn numbers" type="button" value="6">
+                    <input id="subtraction" class="btn operator" type="button" value="-">
+                </div>
+                <div>
+                    <input id="one" class="btn numbers" type="button" value="1">
+                    <input id="two" class="btn numbers" type="button" value="2">
+                    <input id="three" class="btn numbers" type="button" value="3">
+                    <input id="addition" class="btn operator" type="button" value="+">
+                </div>
+                <div>
+                    <input id="zero" class="btn numbers" type="button" value="0">
+                    <input id="point" class="btn decimal" type="button" value=".">
+                    <input id="equal" type="button" value="=" class="btn operator equal">
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="/public/assets/script/calc.js"></script>
+</body>
+</html>
